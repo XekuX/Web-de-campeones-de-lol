@@ -1,11 +1,11 @@
-4205
+4211
 86C:\Users\Acer\Desktop\proyecots\node_modules\caniuse-lite\data\features\textencoder.js133780039768353691 0
 54C:\Users\Acer\Desktop\proyecots\node_modules\env-paths133780039723844125 1
 76C:\Users\Acer\Desktop\proyecots\node_modules\caniuse-lite\data\regions\BI.js133780039745754078 0
 44C:\Users\Acer\Desktop\proyecots\package.json133780161782020786 0
 88C:\Users\Acer\Desktop\proyecots\node_modules\posthtml\node_modules\entities\package.json133780039744395237 0
 74C:\Users\Acer\Desktop\proyecots\node_modules\@parcel\packager-html\LICENSE133780039734959728 0
-36C:\Users\Acer\Desktop\proyecots\dist133780138730315246 1
+36C:\Users\Acer\Desktop\proyecots\dist133780168517500524 1
 99C:\Users\Acer\Desktop\proyecots\node_modules\@parcel\rust\parcel-node-bindings.linux-arm64-gnu.node133780039775976624 0
 66C:\Users\Acer\Desktop\proyecots\node_modules\dotenv-expand\LICENSE133780039727909631 0
 53C:\Users\Acer\Desktop\proyecots\node_modules\get-port133780039737283100 1
@@ -830,7 +830,7 @@
 69C:\Users\Acer\Desktop\proyecots\node_modules\@swc\core-win32-x64-msvc133780039730702722 1
 96C:\Users\Acer\Desktop\proyecots\node_modules\@babel\helper-validator-identifier\lib\index.js.map133780039721204497 0
 85C:\Users\Acer\Desktop\proyecots\node_modules\posthtml\node_modules\domutils\readme.md133780039745416165 0
-47C:\Users\Acer\Desktop\proyecots\dist\index.html133780127556024334 0
+47C:\Users\Acer\Desktop\proyecots\dist\index.html133780168517188813 0
 59C:\Users\Acer\Desktop\proyecots\node_modules\srcset\license133780039722731508 0
 90C:\Users\Acer\Desktop\proyecots\node_modules\caniuse-lite\data\features\x-doc-messaging.js133780039770001143 0
 79C:\Users\Acer\Desktop\proyecots\node_modules\htmlparser2\lib\esm\index.d.ts.map133780039727859798 0
@@ -1164,6 +1164,7 @@
 76C:\Users\Acer\Desktop\proyecots\node_modules\caniuse-lite\data\regions\LS.js133780039762454879 0
 90C:\Users\Acer\Desktop\proyecots\node_modules\lmdb\node_modules\node-addon-api\node_api.gyp133780039742931789 0
 78C:\Users\Acer\Desktop\proyecots\node_modules\@parcel\core\lib\public\Target.js133780039752397492 0
+57C:\Users\Acer\Desktop\proyecots\dist\docs.1caa2c4a.js.map133780168517260169 0
 80C:\Users\Acer\Desktop\proyecots\node_modules\caniuse-lite\data\regions\alt-an.js133780039732017245 0
 90C:\Users\Acer\Desktop\proyecots\node_modules\posthtml\node_modules\entities\lib\index.d.ts133780039746684091 0
 94C:\Users\Acer\Desktop\proyecots\node_modules\posthtml\node_modules\entities\lib\index.d.ts.map133780039745983352 0
@@ -3699,7 +3700,7 @@
 74C:\Users\Acer\Desktop\proyecots\node_modules\@parcel\utils\src\debounce.js133780039740419630 0
 74C:\Users\Acer\Desktop\proyecots\node_modules\@parcel\utils\src\Deferred.js133780039741289896 0
 77C:\Users\Acer\Desktop\proyecots\node_modules\@parcel\utils\src\escape-html.js133780039741744419 0
-47C:\Users\Acer\Desktop\proyecots\docs\index.html133780127442910399 0
+47C:\Users\Acer\Desktop\proyecots\docs\index.html133780167022896980 0
 80C:\Users\Acer\Desktop\proyecots\node_modules\@parcel\utils\src\getCertificate.js133780039742391096 0
 77C:\Users\Acer\Desktop\proyecots\node_modules\@parcel\utils\src\getExisting.js133780039742646365 0
 81C:\Users\Acer\Desktop\proyecots\node_modules\@parcel\package-manager\src\utils.js133780039745224732 0
@@ -4198,9 +4199,14 @@
 76C:\Users\Acer\Desktop\proyecots\node_modules\.bin\update-browserslist-db.ps1133780039818112485 0
 43C:\Users\Acer\Desktop\proyecots\docs\images133780022593420297 0
 44C:\Users\Acer\Desktop\proyecots\docs\main.js133780138729290463 0
-46C:\Users\Acer\Desktop\proyecots\docs\style.css133780138729175343 0
+46C:\Users\Acer\Desktop\proyecots\docs\style.css133780168072621878 0
+53C:\Users\Acer\Desktop\proyecots\dist\docs.1caa2c4a.js133780168516929364 0
 54C:\Users\Acer\Desktop\proyecots\dist\index.330c85ec.js133780138730280643 0
 58C:\Users\Acer\Desktop\proyecots\dist\index.330c85ec.js.map133780138730304886 0
 55C:\Users\Acer\Desktop\proyecots\dist\index.b797997c.css133780129855835127 0
 59C:\Users\Acer\Desktop\proyecots\dist\index.b797997c.css.map133780129855859694 0
+55C:\Users\Acer\Desktop\proyecots\dist\index.c52ca6b0.css133780168516929364 0
+59C:\Users\Acer\Desktop\proyecots\dist\index.c52ca6b0.css.map133780168517260169 0
+54C:\Users\Acer\Desktop\proyecots\dist\index.ea3e8094.js133780168516929364 0
+58C:\Users\Acer\Desktop\proyecots\dist\index.ea3e8094.js.map133780168517260169 0
 56C:\Users\Acer\Desktop\proyecots\dist\scr.a7495d08.js.map133780127556412535 0

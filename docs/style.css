@@ -160,3 +160,87 @@ body {
     border-color: #007BFF;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
   }
+
+
+  /* MOVIL */ 
+  /* Estilos por defecto para pantallas grandes */
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  .filter-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .champion {
+    width: 220px;  
+  }
+}
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .filter-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .champion {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Estilos para pantallas muy pequeñas, como teléfonos */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  #search-input {
+    width: 200px;  /* Barra de búsqueda más pequeña */
+  }
+
+  .champion {
+    width: 90%;
+  }
+}
+
+button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 24px;
+}
+/* Estilos para pantallas más pequeñas, cuadro de info */
+@media (max-width: 480px) {
+  .champion-info {
+    width: 80%; /* La caja de información ocupará el 80% del ancho de la pantalla */
+    max-width: 90%; /* Para asegurarse de que no se salga de la pantalla */
+    top: 50%; /* Centrado verticalmente respecto al personaje */
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); /* Asegura que se centre correctamente */
+  }
+
+  /* Se ajusta el cuadro de info extra para que no se desborde horizontalmente */
+  .champion:hover .champion-info, 
+  .champion:focus .champion-info {
+    max-width: 100%; /* Hace que la caja de información no exceda el tamaño de la pantalla */
+  }
+}
