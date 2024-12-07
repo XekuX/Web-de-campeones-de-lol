@@ -177,15 +177,20 @@ body {
     }
   }
 
-button {
-  padding: 10px;
-  font-size: 14px;
+/* Ajustes específicos para los botones */
+@media (max-width: 480px) {
+  .filter-buttons {
+    gap: 5px; /* Reducir el espacio entre los botones */
+  }
+
+  .filter-buttons button {
+    flex: 1 1 calc(50% - 10px); /* Cada botón ocupa el 50% del ancho menos el margen */
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+    padding: 8px 10px; /* Reducir el padding para ahorrar espacio */
+  }
 }
 
-h1 {
-  font-size: 24px;
-}
-/* Estilos para pantallas más pequeñas, cuadro de info */
+/* Ajustes específicos para cuadro de info */
 @media (max-width: 480px) {
   .champion-info {
     width: 80%; /* La caja de información ocupará el 80% del ancho de la pantalla */
