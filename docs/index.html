@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeones de League of Legends</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Campeones de League of Legends</h1>
+
+    <!-- Botones de filtro por posición -->
+    <div class="filter-buttons">
+        <button onclick="filterChampions('top')">Top</button>
+        <button onclick="filterChampions('mid')">Mid</button>
+        <button onclick="filterChampions('bot')">Bot</button>
+        <button onclick="filterChampions('supp')">Support</button>
+        <button onclick="filterChampions('jungle')">Jungle</button>
+        <button id="all-button" onclick="showAllChampions()">All</button>
+    </div>
+
+    <!-- Buscador de campeones -->
+    <div>
+        <input type="text" id="search-input" placeholder="Buscar campeón..." onkeyup="searchChampions()" />
+    </div>
+
+    <div id="data-container"></div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

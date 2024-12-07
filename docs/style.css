@@ -1,0 +1,162 @@
+/* src/styles.css */
+
+/* Fondo de la página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://displays.riotgames.com/static/content-original-runeterra-ionia-3af5494dd645cb673dc4cedc2d3458b1.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Cubrir toda la página con la imagen */
+    background-position: center; /* Centrar la imagen */
+    background-attachment: fixed; /* Hacer que la imagen de fondo permanezca fija al hacer scroll */
+    padding: 20px;
+  }
+  
+  /* Título de la página con efectos */
+  h1 {
+    font-family: 'Poppins', sans-serif;  /* Usamos una fuente moderna */
+    font-size: 4rem;  /* Título grande */
+    background: linear-gradient(to right, #FFEB3B, #FFC107);  /* Color de las letras amarillo */
+    -webkit-background-clip: text;  
+    color: transparent;  
+    text-shadow: 2px 2px 4px #000000, -2px -2px 4px #000000;  /* Bordes negros */
+    margin-bottom: 40px;
+    animation: glow 1.5s ease-in-out infinite alternate;  /* Añadimos un efecto de "resplandor" */
+  }
+  
+  /* Efecto de resplandor del título */
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 0.7);
+    }
+  }
+  
+  /* Contenedor de los campeones */
+  #data-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Estilo para cada campeón */
+.champion {
+    width: 180px;
+    padding: 15px;
+    background-color: #2C2C2C;  /* Fondo oscuro suave */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  }
+  
+  /* Remarco sobre el cuadro del personaje */
+  .champion:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  }
+  
+  /* Imagen del campeón */
+  .champion img {
+    width: 100%;  /* Para que ocupe todo el espacio disponible */
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Efecto cuando el ratón pasa sobre la imagen */
+  .champion:hover img {
+    transform: scale(1.05);  /* Hace la imagen más grande */
+  }
+  
+  /* Nombre y título del campeón */
+  .champion h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff;  /* Color blanco para el texto */
+  }
+  
+  .champion p {
+    font-size: 14px;
+    color: #ccc;  /* Gris claro para el subnombre */
+    margin-top: 5px;
+  }
+  
+  /* Estilos para los botones de filtro */
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .filter-buttons button {
+    padding: 10px 20px;
+    background-color: #fefefe;
+    color: rgb(6, 6, 6);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: #fbfbfb;
+  }
+
+/* Estilo para el cuadro de información extra */
+.champion-info {
+    display: none;
+    position: fixed; /* Lo ponemos fijo para que no se mueva al hacer scroll */
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease-in-out;
+    z-index: 10;
+}
+
+/* Aseguramos que la información no se superponga a otros campeones */
+.champion:hover .champion-info {
+    display: block;
+    transform: translateX(10px); /* Pequeña animación para hacer que el cuadro de información se mueva hacia el interior */
+}
+/* Asegurar que el cuadro no se salga de la pantalla */
+.champion:hover .champion-info {
+    display: block;
+    max-width: 300px;
+}
+
+/* Estilos para el contenedor de la barra de búsqueda */
+.search-container {
+    margin-bottom: 50px; 
+    text-align: center;  
+  }
+  
+  /* Estilos para la barra de búsqueda */
+  #search-input {
+    width: 200px; 
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  /* Cambia el borde cuando se hace foco */
+  #search-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
